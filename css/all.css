@@ -1,0 +1,19 @@
+.wrap{
+    width: 304px;
+    margin: 0 auto;
+    color: white;
+  }
+  
+  .header{
+    max-width:100%;
+    height: 960px;
+    background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week2/banner.png?raw=true) center center  ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header ul{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-betwee;
+  }
