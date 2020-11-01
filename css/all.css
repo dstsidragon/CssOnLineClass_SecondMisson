@@ -53,31 +53,76 @@ img{
 }
 /*從這行以下開始*/
 
-
+body{    
+  font: italic bold 24px/42px 'Roboto';
+}
+a{
+  text-decoration: none;
+}
+h2{
+  font-size: 64px;
+  line-height: 75px;
+  font-weight: 168;
+}
 .container{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
   }
-  
+/*header*/  
   .header{
-    max-width:100%;
-    height: 960px;
-    background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week2/banner.png?raw=true) center center   ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .header ul{
-    display: flex;
-    flex-direction:row;
-    justify-content:space-betwee;
+    height: 958px;
+    background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week2/banner.png?raw=true) center center ;
+    background-size:cover;
+    border: 1px solid #707070;
   }
 
+  .redCircle{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #891818 0% 0% no-repeat ;
+    display: inline-block;
+  }
+/*brandContent*/  
+.brandContent{
+  background-color: #000;
+}
+/*footer*/
+.footer{
+  background-color: #000000;
+}
 /*通用*/
 
+/*字體對齊*/
+.ta_center{
+  text-align: center;
+}
+.fs_font_normal{
+  font-style: normal;
+}
+.ti_16{
+  text-indent: 16px;
+}
 /*字體顏色*/
 .fc_white{
       color: white;
+}
+
+
+/*字體大小*/
+.fz_20_lh_30{
+  font-size: 20px;
+  line-height: 30px;
+}
+.fz_24_lh_36{
+  font-size: 24px;
+  line-height: 36px;
+}
+
+
+.fz_80_lh_94{
+  font-size: 80px;
+  line-height: 94px;
 }
 
 /*寬度*/
@@ -88,4 +133,82 @@ img{
 /*邊線*/
 .b_bottom_1{
     border-bottom: 1px solid #000;
+}
+
+/*Flex*/
+.d_Flex{
+  display: flex;
+}
+.jc_center{
+  justify-content: center;
+}
+.ai_center{
+  align-items: center;
+}
+.fd_column{
+  flex-direction: column;
+} 
+
+.jc_between{
+  justify-content: space-between;
+}
+.jc_around{
+  justify-content: space-around;
+}
+.f_wrap{
+  flex-wrap: wrap;
+}
+
+/*margin*/
+.mg_bottom_16{
+  margin-bottom: 16px;
+}
+.mg_bottom_24{
+  margin-bottom: 24px;
+}
+.mg_bottom_27{
+  margin-bottom: 27px;
+}
+.mg_bottom_32{
+  margin-bottom: 32px;
+}
+.mg_bottom_40{
+  margin-bottom: 40px;
+}
+.mg_bottom_48{
+  margin-bottom: 48px;
+}
+.mg_bottom_56{
+  margin-bottom: 56px;
+}
+.mg_bottom_64{
+  margin-bottom: 64px;
+}
+.mg_bottom_68{
+  margin-bottom: 68px;
+}
+
+.mg_right_16{
+  margin-right: 16px;
+}
+.mg_right_24{
+  margin-right: 24px;
+}
+/*padding*/
+.pd_top_64{
+  padding-top: 64px;
+}
+.pd_top_88{
+  padding-top: 88px;
+}
+.pd_64{
+  padding:64px;
+}
+
+.pd_bottom_120{
+  padding-bottom: 120px;
+}
+/*display*/
+.dp_block{
+  display: inline-block;
 }
